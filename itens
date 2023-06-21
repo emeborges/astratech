@@ -1,0 +1,13 @@
+##Crie um componente chamado UsersView e o exiba na aplicação.
+##Neste componente, insira um botão escrito “Fetch users”
+##Ao clicar neste botão, faça uma requisição GET ao endpoint https://jsonplaceholder.typicode.com/users e armazene a lista de usuários retornados no estado global da aplicação (os dados precisarão persistir ao recarregar a tela)
+##Crie um componente chamado UsersTable e exiba este componente no UsersView
+##No componente UsersTable, adicione um parâmetro chamado users que receba um array de usuários.
+##No componente UsersTable, renderize uma tabela com os usuários passados pelo parâmetro (campos name, email e company.name).
+##Na quarta coluna, adicione um “x” que, ao clicar nele, o usuário seja removido da tabela (lembre-se que as alterações devem ser persistidas no estado global da aplicação)..
+
+##Na quarta coluna, adicione um “x” que, ao clicar nele, o usuário seja removido da tabela (lembre-se que as alterações devem ser persistidas no estado global da aplicação)..
+
+##Notificação, componente Notion, adicionar uma notificação saindo do componente notion falando que tirou o usuario, a notificação deve sair do topo da tela e conter o nome do usuario
+
+##Execução: clique no botão “Fetch users”, remova o terceiro usuário, remova o primeiro usuário, recarregue a tela, remova o quarto usuário, clique em “Fetch users”, recarregue a tela novamente.
